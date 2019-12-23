@@ -64,3 +64,51 @@ Once configured use the following command to run the code
 ```
 python get_running_startup_config_diff.py <device_ip>
 ```
+
+## Sample Output
+
+>python get_running_startup_config_diff.py 10.10.20.80
+Device IP Address 10.10.20.80
+
+ Running Configuration Change time and user details
+------------------------------------------------------
+ Last configuration change at 21:51:21 UTC Wed Dec 18 2019 by admin
+
+ Startup Configuration Change time and user details
+------------------------------------------------------
+ Last configuration change at 02:59:05 UTC Mon Dec 16 2019 by admin
+
+  Difference between Running and startup config for the device 10.10.20.80
+
+---------------------------------------------------------------------------------------------------
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+  -D697DF7F 28
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+certificate xxxxxxxxx
+
+  -F33BED83 E64DF76A 5C5C33AF 88DE590E 250F
