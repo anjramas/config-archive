@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### Code features
 
-The Python script uses the DNCA APIs to get difference between the running configuration and startup configuration of a device a DNAC Controller knows about. The APIs provides the details of the timestamp when the last startup and running configuration change was done and by whom. It also provides the difference between the running config and startup config for the given device.
+The Python script uses the DNAC APIs to get the difference between the running configuration and startup configuration of a device a DNAC Controller knows about. The APIs provides the details of the timestamp when the last startup and running configuration change was done and by whom. It also provides the difference between the running config and startup config for the given device.
 
 ## Running the code
 ```
