@@ -52,6 +52,15 @@ pip install -r requirements.txt
 The Python script uses the DNAC APIs to get the difference between the running configuration and startup configuration of a device a DNAC Controller knows about. The APIs provides the details of the timestamp when the last startup and running configuration change was done and by whom. It also provides the difference between the running config and startup config for the given device.
 
 ## Running the code
+
+In dnac_config.py, set your DNAC environment details
+
+DNAC=os.environ.get('DNAC','<DNAC_Cluster_IP>')
+DNAC_PORT=os.environ.get('DNAC_PORT',443)
+DNAC_USER=os.environ.get('DNAC_USER','<DNAC_Username>')
+DNAC_PASSWORD=os.environ.get('DNAC_PASSWORD','<DNAC_Password>')
+
+Once configured use the following command to run the code
 ```
 python get_running_startup_config_diff.py <device_ip>
 ```
