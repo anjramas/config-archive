@@ -55,7 +55,8 @@ The Python script uses the DNAC APIs to get the difference between the running c
 
 In dnac_config.py, set your DNAC environment details
 
-```DNAC=os.environ.get('DNAC','<DNAC_Cluster_IP>')
+```
+DNAC=os.environ.get('DNAC','<DNAC_Cluster_IP>')
 DNAC_PORT=os.environ.get('DNAC_PORT',443)
 DNAC_USER=os.environ.get('DNAC_USER','<DNAC_Username>')
 DNAC_PASSWORD=os.environ.get('DNAC_PASSWORD','<DNAC_Password>')
@@ -67,7 +68,7 @@ python get_running_startup_config_diff.py <device_ip>
 
 ## Sample Output
 
-```>python get_running_startup_config_diff.py 10.10.20.80
+```
 Device IP Address 10.10.20.80
 
  Running Configuration Change time and user details
