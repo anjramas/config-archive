@@ -67,7 +67,7 @@ python get_running_startup_config_diff.py <device_ip>
 
 ## Sample Output
 
->python get_running_startup_config_diff.py 10.10.20.80
+```>python get_running_startup_config_diff.py 10.10.20.80
 Device IP Address 10.10.20.80
 
  Running Configuration Change time and user details
@@ -112,3 +112,4 @@ certificate xxxxxxxxx
 certificate xxxxxxxxx
 
   -F33BED83 E64DF76A 5C5C33AF 88DE590E 250F
+```
