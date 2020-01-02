@@ -1,6 +1,6 @@
 ## Getting started
 
-These instructions will get you a copy of the Python code for a Python script to find the difference between running config and startup config of a device a DNAC controller knows about.
+These instructions will get you a copy of the Python code for a Python script to find the difference between running config and startup config of a device a Cisco DNA Center (DNAC) controller knows about.
 
 ## Requirements
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### Code features
 
-The Python script uses the DNAC APIs to get the difference between the running configuration and startup configuration of a device a DNAC Controller knows about. The APIs provides the details of the timestamp when the last startup and running configuration change was done and by whom. It also provides the difference between the running config and startup config for the given device.
+The Python script uses the Cisco DNAC APIs to get the difference between the running configuration and startup configuration of a device a Cisco DNAC Controller knows about. The APIs provides the details of the timestamp when the last startup and running configuration change was done and by whom. It also provides the difference between the running config and startup config for the given device.
 
 ## Running the code
 
